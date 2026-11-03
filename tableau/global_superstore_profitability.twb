@@ -1,0 +1,1510 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- build 20262.26.0912.1023                               --><workbook xmlns:user="http://www.tableausoftware.com/xml/user" _.fcp.WorkbookFingerprinting.true...author-id="72db0929bd4e4d828de61e7a3b53e321cc679d62329fefd535ef2c9b5b479b77" _.fcp.WorkbookFingerprinting.true...creator-author-id="e8c3eabbbb43162d0139d06ed96f13d4b6bdc5224427ad0a0c11a2b9d10f233b" _.fcp.WorkbookFingerprinting.true...creator-license-type="public" _.fcp.WorkbookFingerprinting.true...creator-machine-id="e8c3eabbbb43162d0139d06ed96f13d4b6bdc5224427ad0a0c11a2b9d10f233b" _.fcp.WorkbookFingerprinting.true...license-type="public" _.fcp.WorkbookFingerprinting.true...machine-id="e8c3eabbbb43162d0139d06ed96f13d4b6bdc5224427ad0a0c11a2b9d10f233b" original-version="18.1" source-build="2026.2.3 (20262.26.0912.1023)" source-platform="mac" version="18.1" xml:base="https://public.tableau.com">
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder/>
+    <AnimationOnByDefault/>
+    <AutoCreateAndUpdateDSDPhoneLayouts/>
+    <IntuitiveSorting/>
+    <IntuitiveSorting_SP2/>
+    <MarkAnimation/>
+    <ObjectModelEncapsulateLegacy/>
+    <ObjectModelExtractV2/>
+    <ObjectModelTableType/>
+    <SchemaViewerObjectModel/>
+    <SetMembershipControl/>
+    <SheetIdentifierTracking/>
+    <VConnDownstreamExtractsWithWarnings/>
+    <WindowsPersistSimpleIdentifiers/>
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting/>
+    <WorksheetBackgroundTransparency/>
+    <ZoneBackgroundTransparency/>
+  </document-format-change-manifest>
+  <preferences>
+    <preference name="ui.encoding.shelf.height" value="24"/>
+    <preference name="ui.shelf.height" value="26"/>
+  </preferences>
+  <datasources>
+    <datasource caption="Sheet1 (Global_Superstore2)" inline="true" name="federated.0hhcszr1y865xa156evqa1bap6nc" version="18.1">
+      <connection class="federated">
+        <named-connections>
+          <named-connection caption="Global_Superstore2" name="excel-direct.1wsr03512wf6cd0zsbmon1ba3qdk">
+            <connection class="excel-direct" cleaning="no" compat="no" dataRefreshTime="" filename="../data/Global_Superstore2.xlsx" interpretationMode="0" server="" validate="no" workgroup-auth-mode="as-is"/>
+          </named-connection>
+        </named-connections>
+        <relation connection="excel-direct.1wsr03512wf6cd0zsbmon1ba3qdk" name="Sheet1" table="[Sheet1$]" type="table">
+          <columns gridOrigin="A1:X10001:no:A1:X10001:0" header="yes" outcome="6">
+            <column datatype="integer" name="Row ID" ordinal="0"/>
+            <column datatype="string" name="Order ID" ordinal="1"/>
+            <column datatype="date" date-parse-format="dd-MM-yyyy" name="Order Date" ordinal="2"/>
+            <column datatype="date" date-parse-format="dd-MM-yyyy" name="Ship Date" ordinal="3"/>
+            <column datatype="string" name="Ship Mode" ordinal="4"/>
+            <column datatype="string" name="Customer ID" ordinal="5"/>
+            <column datatype="string" name="Customer Name" ordinal="6"/>
+            <column datatype="string" name="Segment" ordinal="7"/>
+            <column datatype="string" name="City" ordinal="8"/>
+            <column datatype="string" name="State" ordinal="9"/>
+            <column datatype="string" name="Country" ordinal="10"/>
+            <column datatype="integer" name="Postal Code" ordinal="11"/>
+            <column datatype="string" name="Market" ordinal="12"/>
+            <column datatype="string" name="Region" ordinal="13"/>
+            <column datatype="string" name="Product ID" ordinal="14"/>
+            <column datatype="string" name="Category" ordinal="15"/>
+            <column datatype="string" name="Sub-Category" ordinal="16"/>
+            <column datatype="string" name="Product Name" ordinal="17"/>
+            <column datatype="real" name="Sales" ordinal="18"/>
+            <column datatype="integer" name="Quantity" ordinal="19"/>
+            <column datatype="real" name="Discount" ordinal="20"/>
+            <column datatype="real" name="Profit" ordinal="21"/>
+            <column datatype="real" name="Shipping Cost" ordinal="22"/>
+            <column datatype="string" name="Order Priority" ordinal="23"/>
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class="capability">
+            <remote-name/>
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias/>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="integer" name="context">0</attribute>
+              <attribute datatype="string" name="gridOrigin">"A1:X10001:no:A1:X10001:0"</attribute>
+              <attribute datatype="boolean" name="header">true</attribute>
+              <attribute datatype="integer" name="outcome">6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Row ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Row ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Row ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"I8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Order ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Order Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Ship Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ship Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ship Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Ship Mode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship Mode]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Ship Mode</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Customer ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Customer Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Postal Code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Postal Code]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Postal Code</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"I8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Market</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Market]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Market</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Product ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Sub-Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub-Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sub-Category</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Product Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product Name]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Product Name</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"R8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"I8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Discount</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"R8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"R8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Shipping Cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Shipping Cost]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Shipping Cost</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"R8"</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class="column">
+            <remote-name>Order Priority</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order Priority]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Order Priority</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag="1" name="LEN_RUS_S2"/>
+            <attributes>
+              <attribute datatype="string" name="DebugRemoteType">"WSTR"</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled="yes"/>
+      <column caption="Missing Order Dates." datatype="integer" name="[Calculation_2321605160910849]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(IF ISNULL([Order Date]) THEN 1 ELSE 0 END)"/>
+      </column>
+      <column caption="Missing Ship Dates" datatype="integer" name="[Calculation_2321605161521154]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(IF ISNULL([Ship Date]) THEN 1 ELSE 0 END)"/>
+      </column>
+      <column caption="Shipping Dates Error" datatype="integer" name="[Calculation_2321605161979907]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(IF [Ship Date] &lt; [Order Date] THEN 1 ELSE 0 END)"/>
+      </column>
+      <column caption="Rows with missing measures " datatype="integer" name="[Calculation_2321605162328068]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(&#10;    IF ISNULL([Sales])&#10;    OR ISNULL([Profit])&#10;    OR ISNULL([Quantity])&#10;    OR ISNULL([Discount])&#10;    OR ISNULL([Shipping Cost])&#10;    THEN 1 ELSE 0 END&#10;)"/>
+      </column>
+      <column caption="Invalid Discount " datatype="integer" name="[Calculation_2321605162975237]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(&#10;    IF [Discount] &lt; 0 OR [Discount] &gt; 1&#10;    THEN 1 ELSE 0 END&#10;)"/>
+      </column>
+      <column caption="Rows to Review" datatype="integer" name="[Calculation_2321605163360262]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(&#10;    IF [Sales] &lt;= 0&#10;    OR [Quantity] &lt;= 0&#10;    OR [Quantity] &lt;&gt; INT([Quantity])&#10;    OR [Shipping Cost] &lt; 0&#10;    THEN 1 ELSE 0 END&#10;)"/>
+      </column>
+      <column caption="Missing Analysis Categories " datatype="integer" name="[Calculation_2321605164953607]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM(&#10;    IF IFNULL(TRIM([Category]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Sub-Category]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Market]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Region]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Country]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Segment]), &quot;&quot;) = &quot;&quot;&#10;    THEN 1 ELSE 0 END&#10;)"/>
+      </column>
+      <column caption="Profit Margin" datatype="real" default-format="p0.0%" name="[Calculation_3875215099113473]" role="measure" type="quantitative">
+        <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])"/>
+      </column>
+      <column caption="Profit Status" datatype="string" name="[Calculation_3875215101255683]" role="measure" type="nominal">
+        <calculation class="tableau" formula="IF SUM([Profit]) &lt; 0 THEN &quot;Loss&quot;&#10;ELSE &quot;Profit or Break-even&quot;&#10;END"/>
+      </column>
+      <column caption="Discount Band" datatype="string" name="[Calculation_3875215103918084]" role="dimension" type="nominal">
+        <calculation class="tableau" formula="IF [Discount] = 0 THEN &quot;1. No discount&quot;&#10;ELSEIF [Discount] &lt;= 0.10 THEN &quot;2. Over 0%–10%&quot;&#10;ELSEIF [Discount] &lt;= 0.20 THEN &quot;3. Over 10%–20%&quot;&#10;ELSEIF [Discount] &lt;= 0.30 THEN &quot;4. Over 20%–30%&quot;&#10;ELSEIF [Discount] &lt;= 0.50 THEN &quot;5. Over 30%–50%&quot;&#10;ELSE &quot;6. Over 50%–100%&quot;&#10;END"/>
+      </column>
+      <column datatype="string" name="[City]" role="dimension" semantic-role="[City].[Name]" type="nominal"/>
+      <column datatype="string" name="[Country]" role="dimension" semantic-role="[Country].[ISO3166_2]" type="nominal"/>
+      <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+      <column aggregation="Sum" datatype="integer" default-format="*00000" name="[Postal Code]" role="dimension" semantic-role="[ZipCode].[Name]" type="ordinal"/>
+      <column datatype="integer" name="[Row ID]" role="dimension" type="ordinal"/>
+      <column datatype="string" name="[State]" role="dimension" semantic-role="[State].[Name]" type="nominal"/>
+      <column caption="Sheet1" datatype="table" name="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" role="measure" type="quantitative"/>
+      <column-instance column="[Calculation_3875215103918084]" derivation="None" name="[none:Calculation_3875215103918084:nk]" pivot="key" type="nominal"/>
+      <column-instance column="[Calculation_3875215101255683]" derivation="User" name="[usr:Calculation_3875215101255683:nk]" pivot="key" type="nominal"/>
+      <layout dim-ordering="alphabetic" measure-ordering="alphabetic" show-structure="true"/>
+      <style>
+        <style-rule element="mark">
+          <encoding attr="color" field="[usr:Calculation_3875215101255683:nk]" type="palette">
+            <map to="#4e79a7">
+              <bucket>"Profit or Break-even"</bucket>
+            </map>
+            <map to="#f28e2b">
+              <bucket>"Loss"</bucket>
+            </map>
+          </encoding>
+          <encoding attr="color" field="[none:Calculation_3875215103918084:nk]" type="palette">
+            <map to="#2a5783">
+              <bucket>"1. No discount"</bucket>
+            </map>
+            <map to="#5b8cb8">
+              <bucket>"2. Over 0\%–10\%"</bucket>
+            </map>
+            <map to="#89b8da">
+              <bucket>"3. Over 10\%–20\%"</bucket>
+            </map>
+            <map to="#acb0b1">
+              <bucket>"4. Over 20\%–30\%"</bucket>
+            </map>
+            <map to="#c14f22">
+              <bucket>"6. Over 50\%–100\%"</bucket>
+            </map>
+            <map to="#f5a645">
+              <bucket>"5. Over 30\%–50\%"</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key="[Country].[Name]" value="&quot;United States&quot;"/>
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption="Sheet1" id="Sheet1_0EB7156FE07243419A42AD8E1EA67C88">
+            <properties context="">
+              <relation connection="excel-direct.1wsr03512wf6cd0zsbmon1ba3qdk" name="Sheet1" table="[Sheet1$]" type="table">
+                <columns gridOrigin="A1:X10001:no:A1:X10001:0" header="yes" outcome="6">
+                  <column datatype="integer" name="Row ID" ordinal="0"/>
+                  <column datatype="string" name="Order ID" ordinal="1"/>
+                  <column datatype="date" date-parse-format="dd-MM-yyyy" name="Order Date" ordinal="2"/>
+                  <column datatype="date" date-parse-format="dd-MM-yyyy" name="Ship Date" ordinal="3"/>
+                  <column datatype="string" name="Ship Mode" ordinal="4"/>
+                  <column datatype="string" name="Customer ID" ordinal="5"/>
+                  <column datatype="string" name="Customer Name" ordinal="6"/>
+                  <column datatype="string" name="Segment" ordinal="7"/>
+                  <column datatype="string" name="City" ordinal="8"/>
+                  <column datatype="string" name="State" ordinal="9"/>
+                  <column datatype="string" name="Country" ordinal="10"/>
+                  <column datatype="integer" name="Postal Code" ordinal="11"/>
+                  <column datatype="string" name="Market" ordinal="12"/>
+                  <column datatype="string" name="Region" ordinal="13"/>
+                  <column datatype="string" name="Product ID" ordinal="14"/>
+                  <column datatype="string" name="Category" ordinal="15"/>
+                  <column datatype="string" name="Sub-Category" ordinal="16"/>
+                  <column datatype="string" name="Product Name" ordinal="17"/>
+                  <column datatype="real" name="Sales" ordinal="18"/>
+                  <column datatype="integer" name="Quantity" ordinal="19"/>
+                  <column datatype="real" name="Discount" ordinal="20"/>
+                  <column datatype="real" name="Profit" ordinal="21"/>
+                  <column datatype="real" name="Shipping Cost" ordinal="22"/>
+                  <column datatype="string" name="Order Priority" ordinal="23"/>
+                </columns>
+              </relation>
+            </properties>
+            <properties context="extract">
+              <relation name="Extract" table="[Extract].[Extract]" type="table"/>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name="Data Quality Check">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Missing Order Dates." datatype="integer" name="[Calculation_2321605160910849]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(IF ISNULL([Order Date]) THEN 1 ELSE 0 END)"/>
+            </column>
+            <column caption="Missing Ship Dates" datatype="integer" name="[Calculation_2321605161521154]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(IF ISNULL([Ship Date]) THEN 1 ELSE 0 END)"/>
+            </column>
+            <column caption="Shipping Dates Error" datatype="integer" name="[Calculation_2321605161979907]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(IF [Ship Date] &lt; [Order Date] THEN 1 ELSE 0 END)"/>
+            </column>
+            <column caption="Rows with missing measures " datatype="integer" name="[Calculation_2321605162328068]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(&#10;    IF ISNULL([Sales])&#10;    OR ISNULL([Profit])&#10;    OR ISNULL([Quantity])&#10;    OR ISNULL([Discount])&#10;    OR ISNULL([Shipping Cost])&#10;    THEN 1 ELSE 0 END&#10;)"/>
+            </column>
+            <column caption="Invalid Discount " datatype="integer" name="[Calculation_2321605162975237]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(&#10;    IF [Discount] &lt; 0 OR [Discount] &gt; 1&#10;    THEN 1 ELSE 0 END&#10;)"/>
+            </column>
+            <column caption="Rows to Review" datatype="integer" name="[Calculation_2321605163360262]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(&#10;    IF [Sales] &lt;= 0&#10;    OR [Quantity] &lt;= 0&#10;    OR [Quantity] &lt;&gt; INT([Quantity])&#10;    OR [Shipping Cost] &lt; 0&#10;    THEN 1 ELSE 0 END&#10;)"/>
+            </column>
+            <column caption="Missing Analysis Categories " datatype="integer" name="[Calculation_2321605164953607]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM(&#10;    IF IFNULL(TRIM([Category]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Sub-Category]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Market]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Region]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Country]), &quot;&quot;) = &quot;&quot;&#10;    OR IFNULL(TRIM([Segment]), &quot;&quot;) = &quot;&quot;&#10;    THEN 1 ELSE 0 END&#10;)"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="string" name="[Country]" role="dimension" semantic-role="[Country].[ISO3166_2]" type="nominal"/>
+            <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="date" name="[Order Date]" role="dimension" type="ordinal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="integer" name="[Quantity]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Region]" role="dimension" type="nominal"/>
+            <column datatype="integer" name="[Row ID]" role="dimension" type="ordinal"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Segment]" role="dimension" type="nominal"/>
+            <column datatype="date" name="[Ship Date]" role="dimension" type="ordinal"/>
+            <column datatype="real" name="[Shipping Cost]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Sub-Category]" role="dimension" type="nominal"/>
+            <column caption="Sheet1" datatype="table" name="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" role="measure" type="quantitative"/>
+            <column-instance column="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" derivation="Count" name="[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Row ID]" derivation="CountD" name="[ctd:Row ID:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605160910849]" derivation="User" name="[usr:Calculation_2321605160910849:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605161521154]" derivation="User" name="[usr:Calculation_2321605161521154:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605161979907]" derivation="User" name="[usr:Calculation_2321605161979907:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605162328068]" derivation="User" name="[usr:Calculation_2321605162328068:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605162975237]" derivation="User" name="[usr:Calculation_2321605162975237:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605163360262]" derivation="User" name="[usr:Calculation_2321605163360262:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_2321605164953607]" derivation="User" name="[usr:Calculation_2321605164953607:qk]" pivot="key" type="quantitative"/>
+          </datasource-dependencies>
+          <aggregation value="true"/>
+        </view>
+        <style/>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Automatic"/>
+            <encodings>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[ctd:Row ID:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605160910849:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605161521154:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605161979907:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605162328068:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605162975237:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605163360262:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_2321605164953607:qk]"/>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]"/>
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows/>
+        <cols/>
+      </table>
+      <simple-id uuid="{C13F927B-7B68-4E09-B04A-85785AADC158}"/>
+    </worksheet>
+    <worksheet name="Discount and Profit by Order Line">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Profit Status" datatype="string" name="[Calculation_3875215101255683]" role="measure" type="nominal">
+              <calculation class="tableau" formula="IF SUM([Profit]) &lt; 0 THEN &quot;Loss&quot;&#10;ELSE &quot;Profit or Break-even&quot;&#10;END"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="string" name="[Product Name]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="integer" name="[Row ID]" role="dimension" type="ordinal"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Sub-Category]" role="dimension" type="nominal"/>
+            <column-instance column="[Market]" derivation="Attribute" name="[attr:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Product Name]" derivation="Attribute" name="[attr:Product Name:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Sub-Category]" derivation="Attribute" name="[attr:Sub-Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Discount]" derivation="Avg" name="[avg:Discount:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Row ID]" derivation="None" name="[none:Row ID:ok]" pivot="key" type="ordinal"/>
+            <column-instance column="[Profit]" derivation="Sum" name="[sum:Profit:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Sales]" derivation="Sum" name="[sum:Sales:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215101255683]" derivation="User" name="[usr:Calculation_3875215101255683:nk]" pivot="key" type="nominal"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style/>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Circle"/>
+            <mark-sizing mark-sizing-setting="marks-scaling-off"/>
+            <encodings>
+              <color column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215101255683:nk]"/>
+              <lod column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Row ID:ok]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[attr:Product Name:nk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[attr:Sub-Category:nk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[attr:Market:nk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]"/>
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="size" value="0.58171272277832031"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]</rows>
+        <cols>[federated.0hhcszr1y865xa156evqa1bap6nc].[avg:Discount:qk]</cols>
+      </table>
+      <simple-id uuid="{A91CEB3E-D349-49AF-8DE1-51B043246EEE}"/>
+    </worksheet>
+    <worksheet name="KPI – Profit Margin">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontsize="12">Profit Margin</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Profit Margin" datatype="real" default-format="p0.0%" name="[Calculation_3875215099113473]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Calculation_3875215099113473]" derivation="User" name="[usr:Calculation_3875215099113473:qk]" pivot="key" type="quantitative"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style/>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Automatic"/>
+            <encodings>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]"/>
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize="24">&lt;</run>
+                <run fontsize="24">[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]</run>
+                <run fontsize="24">&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows/>
+        <cols/>
+      </table>
+      <simple-id uuid="{945BF30D-2167-4649-83FF-5F19FCF9B320}"/>
+    </worksheet>
+    <worksheet name="KPI – Total Profit">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Profit</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Profit]" derivation="Sum" name="[sum:Profit:qk]" pivot="key" type="quantitative"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style>
+          <style-rule element="cell">
+            <format attr="text-format" field="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]" value="n#,##0,,.00M;-#,##0,,.00M"/>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Automatic"/>
+            <encodings>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]"/>
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize="24">&lt;</run>
+                <run fontsize="24">[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]</run>
+                <run fontsize="24">&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows/>
+        <cols/>
+      </table>
+      <simple-id uuid="{82C1789F-53C6-46F8-B3CA-8CE2DCE28273}"/>
+    </worksheet>
+    <worksheet name="KPI – Total Sales">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Sales</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Sales]" derivation="Sum" name="[sum:Sales:qk]" pivot="key" type="quantitative"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style>
+          <style-rule element="cell">
+            <format attr="text-format" field="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]" value="n#,##0,,.00M;-#,##0,,.00M"/>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Automatic"/>
+            <encodings>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]"/>
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize="24">&lt;</run>
+                <run fontsize="24">[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]</run>
+                <run fontsize="24">&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows/>
+        <cols/>
+      </table>
+      <simple-id uuid="{A1868358-CCAC-4EE8-9272-D3D284B7125F}"/>
+    </worksheet>
+    <worksheet name="Monthly Profit by Discount Band">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Profit Margin" datatype="real" default-format="p0.0%" name="[Calculation_3875215099113473]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])"/>
+            </column>
+            <column caption="Discount Band" datatype="string" name="[Calculation_3875215103918084]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="IF [Discount] = 0 THEN &quot;1. No discount&quot;&#10;ELSEIF [Discount] &lt;= 0.10 THEN &quot;2. Over 0%–10%&quot;&#10;ELSEIF [Discount] &lt;= 0.20 THEN &quot;3. Over 10%–20%&quot;&#10;ELSEIF [Discount] &lt;= 0.30 THEN &quot;4. Over 20%–30%&quot;&#10;ELSEIF [Discount] &lt;= 0.50 THEN &quot;5. Over 30%–50%&quot;&#10;ELSE &quot;6. Over 50%–100%&quot;&#10;END"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="date" name="[Order Date]" role="dimension" type="ordinal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column caption="Sheet1" datatype="table" name="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" role="measure" type="quantitative"/>
+            <column-instance column="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" derivation="Count" name="[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215103918084]" derivation="None" name="[none:Calculation_3875215103918084:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Profit]" derivation="Sum" name="[sum:Profit:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Sales]" derivation="Sum" name="[sum:Sales:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Order Date]" derivation="Month-Trunc" name="[tmn:Order Date:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215099113473]" derivation="User" name="[usr:Calculation_3875215099113473:qk]" pivot="key" type="quantitative"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style/>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Line"/>
+            <encodings>
+              <color column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Calculation_3875215103918084:nk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]"/>
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]</rows>
+        <cols>[federated.0hhcszr1y865xa156evqa1bap6nc].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid="{22BBD1EF-37D0-4DEF-BECC-B7C85CB356CC}"/>
+    </worksheet>
+    <worksheet name="Profit Margin by Discount Band">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Profit Margin" datatype="real" default-format="p0.0%" name="[Calculation_3875215099113473]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])"/>
+            </column>
+            <column caption="Profit Status" datatype="string" name="[Calculation_3875215101255683]" role="measure" type="nominal">
+              <calculation class="tableau" formula="IF SUM([Profit]) &lt; 0 THEN &quot;Loss&quot;&#10;ELSE &quot;Profit or Break-even&quot;&#10;END"/>
+            </column>
+            <column caption="Discount Band" datatype="string" name="[Calculation_3875215103918084]" role="dimension" type="nominal">
+              <calculation class="tableau" formula="IF [Discount] = 0 THEN &quot;1. No discount&quot;&#10;ELSEIF [Discount] &lt;= 0.10 THEN &quot;2. Over 0%–10%&quot;&#10;ELSEIF [Discount] &lt;= 0.20 THEN &quot;3. Over 10%–20%&quot;&#10;ELSEIF [Discount] &lt;= 0.30 THEN &quot;4. Over 20%–30%&quot;&#10;ELSEIF [Discount] &lt;= 0.50 THEN &quot;5. Over 30%–50%&quot;&#10;ELSE &quot;6. Over 50%–100%&quot;&#10;END"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column caption="Sheet1" datatype="table" name="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" role="measure" type="quantitative"/>
+            <column-instance column="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" derivation="Count" name="[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215103918084]" derivation="None" name="[none:Calculation_3875215103918084:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Profit]" derivation="Sum" name="[sum:Profit:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Sales]" derivation="Sum" name="[sum:Sales:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215099113473]" derivation="User" name="[usr:Calculation_3875215099113473:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215101255683]" derivation="User" name="[usr:Calculation_3875215101255683:nk]" pivot="key" type="nominal"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style>
+          <style-rule element="axis">
+            <format attr="height" field="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]" value="55"/>
+          </style-rule>
+          <style-rule element="cell">
+            <format attr="height" field="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Calculation_3875215103918084:nk]" value="20"/>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Bar"/>
+            <encodings>
+              <color column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215101255683:nk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]"/>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]"/>
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Calculation_3875215103918084:nk]</rows>
+        <cols>[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]</cols>
+      </table>
+      <simple-id uuid="{D206EFDF-E32E-451E-B0E6-B75A878B4FC8}"/>
+    </worksheet>
+    <worksheet name="Profit Margin by Market and Sub-Category">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Profit Margin" datatype="real" default-format="p0.0%" name="[Calculation_3875215099113473]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Sub-Category]" role="dimension" type="nominal"/>
+            <column caption="Sheet1" datatype="table" name="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" role="measure" type="quantitative"/>
+            <column-instance column="[__tableau_internal_object_id__].[Sheet1_0EB7156FE07243419A42AD8E1EA67C88]" derivation="Count" name="[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Discount]" derivation="Avg" name="[avg:Discount:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Sub-Category]" derivation="None" name="[none:Sub-Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Profit]" derivation="Sum" name="[sum:Profit:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Sales]" derivation="Sum" name="[sum:Sales:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215099113473]" derivation="User" name="[usr:Calculation_3875215099113473:qk]" pivot="key" type="quantitative"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style>
+          <style-rule element="mark">
+            <encoding attr="color" center="0.0" field="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]" palette="orange_blue_diverging_10_0" type="interpolated"/>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Square"/>
+            <encodings>
+              <color column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[__tableau_internal_object_id__].[cnt:Sheet1_0EB7156FE07243419A42AD8E1EA67C88:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[avg:Discount:qk]"/>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]"/>
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Sub-Category:nk]</rows>
+        <cols>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</cols>
+      </table>
+      <simple-id uuid="{2DA23E87-160A-4B53-B5CB-D5AA91B85832}"/>
+    </worksheet>
+    <worksheet name="Profit by Sub-Category">
+      <table>
+        <view>
+          <datasources>
+            <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+          </datasources>
+          <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+            <column caption="Profit Margin" datatype="real" default-format="p0.0%" name="[Calculation_3875215099113473]" role="measure" type="quantitative">
+              <calculation class="tableau" formula="SUM([Profit]) / SUM([Sales])"/>
+            </column>
+            <column caption="Profit Status" datatype="string" name="[Calculation_3875215101255683]" role="measure" type="nominal">
+              <calculation class="tableau" formula="IF SUM([Profit]) &lt; 0 THEN &quot;Loss&quot;&#10;ELSE &quot;Profit or Break-even&quot;&#10;END"/>
+            </column>
+            <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+            <column datatype="real" default-format="p0.0%" name="[Discount]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+            <column datatype="real" name="[Profit]" role="measure" type="quantitative"/>
+            <column datatype="real" name="[Sales]" role="measure" type="quantitative"/>
+            <column datatype="string" name="[Sub-Category]" role="dimension" type="nominal"/>
+            <column-instance column="[Discount]" derivation="Avg" name="[avg:Discount:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Sub-Category]" derivation="None" name="[none:Sub-Category:nk]" pivot="key" type="nominal"/>
+            <column-instance column="[Profit]" derivation="Sum" name="[sum:Profit:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Sales]" derivation="Sum" name="[sum:Sales:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215099113473]" derivation="User" name="[usr:Calculation_3875215099113473:qk]" pivot="key" type="quantitative"/>
+            <column-instance column="[Calculation_3875215101255683]" derivation="User" name="[usr:Calculation_3875215101255683:nk]" pivot="key" type="nominal"/>
+          </datasource-dependencies>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" filter-group="4">
+            <groupfilter function="level-members" level="[none:Category:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <filter class="categorical" column="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" filter-group="3">
+            <groupfilter function="level-members" level="[none:Market:nk]" user:ui-enumeration="all" user:ui-marker="enumerate"/>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Sub-Category:nk]" direction="DESC" is-on-innermost-dimension="true" measure-to-sort-by="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]" shelf="rows"/>
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]</column>
+            <column>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]</column>
+          </slices>
+          <aggregation value="true"/>
+        </view>
+        <style/>
+        <panes>
+          <pane selection-relaxation-option="selection-relaxation-allow">
+            <view>
+              <breakdown value="auto"/>
+            </view>
+            <mark class="Automatic"/>
+            <encodings>
+              <color column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215101255683:nk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Sales:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]"/>
+              <tooltip column="[federated.0hhcszr1y865xa156evqa1bap6nc].[avg:Discount:qk]"/>
+              <text column="[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]"/>
+            </encodings>
+            <style>
+              <style-rule element="mark">
+                <format attr="mark-labels-show" value="true"/>
+                <format attr="mark-labels-cull" value="true"/>
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Sub-Category:nk]</rows>
+        <cols>[federated.0hhcszr1y865xa156evqa1bap6nc].[sum:Profit:qk]</cols>
+      </table>
+      <simple-id uuid="{1F48E061-6B05-4ED6-B127-69B84FE2E191}"/>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder="true" name="Discounts and Profitability">
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor="#000000" fontname="Benton Sans Book">Global Superstore: Discounts and Profitability</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style/>
+      <size maxheight="1300" maxwidth="1400" minheight="1300" minwidth="1400" sizing-mode="fixed"/>
+      <datasources>
+        <datasource caption="Sheet1 (Global_Superstore2)" name="federated.0hhcszr1y865xa156evqa1bap6nc"/>
+      </datasources>
+      <datasource-dependencies datasource="federated.0hhcszr1y865xa156evqa1bap6nc">
+        <column datatype="string" name="[Category]" role="dimension" type="nominal"/>
+        <column datatype="string" name="[Market]" role="dimension" type="nominal"/>
+        <column-instance column="[Category]" derivation="None" name="[none:Category:nk]" pivot="key" type="nominal"/>
+        <column-instance column="[Market]" derivation="None" name="[none:Market:nk]" pivot="key" type="nominal"/>
+      </datasource-dependencies>
+      <zones>
+        <zone h="100000" id="4" type-v2="layout-basic" w="100000" x="0" y="0">
+          <zone h="98770" id="14" param="horz" type-v2="layout-flow" w="98858" x="571" y="615">
+            <zone h="98770" id="12" type-v2="layout-basic" w="87429" x="571" y="615">
+              <zone h="98770" id="5" param="vert" type-v2="layout-flow" w="87429" x="571" y="615">
+                <zone h="3000" id="7" type-v2="title" w="87429" x="571" y="615">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                  </zone-style>
+                </zone>
+                <zone h="95770" id="6" type-v2="layout-basic" w="87429" x="571" y="3615">
+                  <zone h="95770" id="8" name="KPI – Total Sales" w="43715" x="571" y="3615">
+                    <zone-style>
+                      <format attr="border-color" value="#000000"/>
+                      <format attr="border-style" value="none"/>
+                      <format attr="border-width" value="0"/>
+                      <format attr="margin" value="4"/>
+                    </zone-style>
+                  </zone>
+                  <zone h="95770" id="9" name="KPI – Total Profit" w="21857" x="44286" y="3615">
+                    <zone-style>
+                      <format attr="border-color" value="#000000"/>
+                      <format attr="border-style" value="none"/>
+                      <format attr="border-width" value="0"/>
+                      <format attr="margin" value="4"/>
+                    </zone-style>
+                  </zone>
+                  <zone h="95770" id="10" name="KPI – Profit Margin" w="21857" x="66143" y="3615">
+                    <zone-style>
+                      <format attr="border-color" value="#000000"/>
+                      <format attr="border-style" value="none"/>
+                      <format attr="border-width" value="0"/>
+                      <format attr="margin" value="4"/>
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size="160" h="98770" id="13" is-fixed="true" param="vert" type-v2="layout-flow" w="11429" x="88000" y="615">
+              <zone h="5077" id="15" name="Profit by Sub-Category" pane-specification-id="0" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215101255683:nk]" type-v2="color" w="11429" x="88000" y="615">
+                <zone-style>
+                  <format attr="border-color" value="#000000"/>
+                  <format attr="border-style" value="none"/>
+                  <format attr="border-width" value="0"/>
+                  <format attr="margin" value="4"/>
+                </zone-style>
+              </zone>
+              <zone h="5000" id="19" name="Profit Margin by Market and Sub-Category" pane-specification-id="0" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]" type-v2="color" w="11429" x="88000" y="5692">
+                <zone-style>
+                  <format attr="border-color" value="#000000"/>
+                  <format attr="border-style" value="none"/>
+                  <format attr="border-width" value="0"/>
+                  <format attr="margin" value="4"/>
+                </zone-style>
+              </zone>
+              <zone h="11230" id="21" name="Monthly Profit by Discount Band" pane-specification-id="0" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Calculation_3875215103918084:nk]" type-v2="color" w="11429" x="88000" y="10692">
+                <zone-style>
+                  <format attr="border-color" value="#000000"/>
+                  <format attr="border-style" value="none"/>
+                  <format attr="border-width" value="0"/>
+                  <format attr="margin" value="4"/>
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr="border-color" value="#000000"/>
+            <format attr="border-style" value="none"/>
+            <format attr="border-width" value="0"/>
+            <format attr="margin" value="8"/>
+          </zone-style>
+        </zone>
+        <zone h="26923" id="11" name="Profit by Sub-Category" w="42857" x="714" y="12308"/>
+        <zone h="26923" id="16" name="Profit Margin by Discount Band" w="42857" x="44286" y="12308"/>
+        <zone h="26923" id="17" name="Discount and Profit by Order Line" w="42857" x="714" y="40000"/>
+        <zone h="26923" id="18" name="Profit Margin by Market and Sub-Category" w="42857" x="44286" y="40000"/>
+        <zone h="26923" id="20" name="Monthly Profit by Discount Band" w="86429" x="714" y="67692"/>
+        <zone h="18462" id="24" name="Profit by Sub-Category" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" type-v2="filter" values="database" w="11429" x="87857" y="23077"/>
+        <zone h="10769" id="25" name="Profit by Sub-Category" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" type-v2="filter" values="database" w="11429" x="87857" y="42308"/>
+        <zone forceUpdate="true" h="1692" id="28" type-v2="text" w="86429" x="714" y="10385">
+          <formatted-text>
+            <run fontsize="10">How do discounts relate to profit, including loss-making products?</run>
+            <run>Æ
+</run>
+          </formatted-text>
+        </zone>
+        <zone h="4231" id="29" type-v2="text" w="86429" x="714" y="95385">
+          <formatted-text>
+            <run>Use Market and Category to explore. Associations do not establish causation.
+Source: Global Super Store Dataset — kaggle.com/datasets/apoorvaappz/global-super-store-dataset
+Analysis and dashboard: Henry Audi | Profit margin = total profit / total sales; average discount is per data row.</run>
+          </formatted-text>
+        </zone>
+        <zone h="17692" id="30" type-v2="text" w="11429" x="87857" y="54615">
+          <formatted-text>
+            <run>FULL-DATA FINDING
+Discounts above 50%:
+4,172 order lines
+371,625 sales
+−412,582 profit
+−111.0% profit margin
+These figures describe the full dataset and do not change with filters.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated="true" name="Phone">
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run fontcolor="#000000" fontname="Benton Sans Book">Global Superstore: Discounts and Profitability</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight="2900" minheight="2900" sizing-mode="vscroll"/>
+          <zones>
+            <zone h="100000" id="36" type-v2="layout-basic" w="100000" x="0" y="0">
+              <zone h="98770" id="35" param="vert" type-v2="layout-flow" w="98858" x="571" y="615">
+                <zone h="3000" id="7" type-v2="title" w="87429" x="571" y="615">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="95770" id="8" is-fixed="true" name="KPI – Total Sales" w="43715" x="571" y="3615">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="95770" id="9" is-fixed="true" name="KPI – Total Profit" w="21857" x="44286" y="3615">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="95770" id="10" is-fixed="true" name="KPI – Profit Margin" w="21857" x="66143" y="3615">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone forceUpdate="true" h="1692" id="28" type-v2="text" w="86429" x="714" y="10385">
+                  <formatted-text>
+                    <run fontsize="10">How do discounts relate to profit, including loss-making products?</run>
+                    <run>Æ
+</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="18462" id="24" mode="checkdropdown" name="Profit by Sub-Category" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Market:nk]" type-v2="filter" values="database" w="11429" x="87857" y="23077">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="10769" id="25" mode="checkdropdown" name="Profit by Sub-Category" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Category:nk]" type-v2="filter" values="database" w="11429" x="87857" y="42308">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="26923" id="11" is-fixed="true" name="Profit by Sub-Category" w="42857" x="714" y="12308">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="5077" id="15" name="Profit by Sub-Category" pane-specification-id="0" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215101255683:nk]" type-v2="color" w="11429" x="88000" y="615">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="26923" id="16" is-fixed="true" name="Profit Margin by Discount Band" w="42857" x="44286" y="12308">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="26923" id="17" is-fixed="true" name="Discount and Profit by Order Line" w="42857" x="714" y="40000">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="26923" id="18" is-fixed="true" name="Profit Margin by Market and Sub-Category" w="42857" x="44286" y="40000">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="5000" id="19" name="Profit Margin by Market and Sub-Category" pane-specification-id="0" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[usr:Calculation_3875215099113473:qk]" type-v2="color" w="11429" x="88000" y="5692">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="17692" id="30" type-v2="text" w="11429" x="87857" y="54615">
+                  <formatted-text>
+                    <run>FULL-DATA FINDING
+Discounts above 50%:
+4,172 order lines
+371,625 sales
+−412,582 profit
+−111.0% profit margin
+These figures describe the full dataset and do not change with filters.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone fixed-size="280" h="26923" id="20" is-fixed="true" name="Monthly Profit by Discount Band" w="86429" x="714" y="67692">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="11230" id="21" name="Monthly Profit by Discount Band" pane-specification-id="0" param="[federated.0hhcszr1y865xa156evqa1bap6nc].[none:Calculation_3875215103918084:nk]" type-v2="color" w="11429" x="88000" y="10692">
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+                <zone h="4231" id="29" type-v2="text" w="86429" x="714" y="95385">
+                  <formatted-text>
+                    <run>Use Market and Category to explore. Associations do not establish causation.
+Source: Global Super Store Dataset — kaggle.com/datasets/apoorvaappz/global-super-store-dataset
+Analysis and dashboard: Henry Audi | Profit margin = total profit / total sales; average discount is per data row.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr="border-color" value="#000000"/>
+                    <format attr="border-style" value="none"/>
+                    <format attr="border-width" value="0"/>
+                    <format attr="margin" value="4"/>
+                    <format attr="padding" value="0"/>
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr="border-color" value="#000000"/>
+                <format attr="border-style" value="none"/>
+                <format attr="border-width" value="0"/>
+                <format attr="margin" value="8"/>
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid="{27CFCA5E-992C-4F19-B4CC-8B8A4D55C755}"/>
+    </dashboard>
+  </dashboards>
+  </workbook>

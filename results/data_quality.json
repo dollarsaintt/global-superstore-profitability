@@ -1,0 +1,16 @@
+{
+  "rows": 51290,
+  "source_fields": 24,
+  "unique_row_ids": 51290,
+  "missing_row_ids": 0,
+  "duplicate_records_excluding_row_id": 0,
+  "missing_dates": 0,
+  "missing_required_measures": 0,
+  "missing_analysis_categories": 0,
+  "shipping_before_order": 0,
+  "invalid_discount": 0,
+  "nonpositive_sales": 0,
+  "invalid_quantity": 0,
+  "negative_shipping_cost": 0,
+  "missing_postal_codes": 41296
+}

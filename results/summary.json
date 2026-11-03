@@ -1,0 +1,19 @@
+{
+  "rows": 51290,
+  "sales": 12642501.90988,
+  "profit": 1467457.29128,
+  "profit_margin": 0.11607332960995605,
+  "start_date": "2011-01-01",
+  "end_date": "2014-12-31",
+  "markets": 7,
+  "subcategories": 17,
+  "months": 48,
+  "negative_months_by_discount_band": {
+    "No discount": 0,
+    "Over 0%-10%": 0,
+    "Over 10%-20%": 0,
+    "Over 20%-30%": 41,
+    "Over 30%-50%": 48,
+    "Over 50%-100%": 48
+  }
+}
